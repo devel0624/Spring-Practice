@@ -15,6 +15,8 @@
             destroy-method="destroy">
     </bean>
 
-    
+    <bean   id = "messageSendService" class="com.nhnacademy.edu.springframework.service.MessageSendService">
+        <constructor-arg ref="emailMessageSender"/>
+    </bean>
 
 </beans>
