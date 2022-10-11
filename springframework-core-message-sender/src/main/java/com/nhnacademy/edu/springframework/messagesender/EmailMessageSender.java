@@ -1,4 +1,6 @@
-package com.nhnacademy.edu.springframework;
+package com.nhnacademy.edu.springframework.messagesender;
+
+import com.nhnacademy.edu.springframework.User;
 
 public class EmailMessageSender implements MessageSender{
     @Override
