@@ -13,4 +13,5 @@ public class MessageSendService {
     public void doSendMessage(){
         this.messageSender.sendMessage(new User("ABC@mail.com","010-XXXX-XXXX"),"Hello!");
     }
+
 }
