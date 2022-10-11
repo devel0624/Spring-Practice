@@ -28,4 +28,5 @@ public class MessageSendService {
         this.emailMessageSender.sendMessage(new User("ABC@mail.com","010-XXXX-XXXX"),"Hello!");
         this.smsMessageSender.sendMessage(new User("ABC@mail.com","010-XXXX-XXXX"),"Hello!");
     }
+
 }
